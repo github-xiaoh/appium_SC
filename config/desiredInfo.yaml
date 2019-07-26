@@ -1,0 +1,15 @@
+
+
+ip: localhost
+port: 4723
+app: "/Users/chenhang/Desktop/\u53F0\u6E7E\u72480717.apk"
+appActivity: 'tw.android.mingzhi.motv.mvp.ui.activity.SplashActivity'
+appPackage: 'tw.android.mingzhi.motv'
+deviceName: 'CLB0218522012520'  # emulator-5554
+noReset: 'false'               # 是否记录当前会话（false相当于新安装打开app，true表示已经打开过）
+platforVersion: '6.0.1'
+platformName: 'Android'
+resetKeyboard: 'true'     # 键盘清空
+unicodeKeyboard: 'true'    # 中文输入字符编码乱码问题
+
+
