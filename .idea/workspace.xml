@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e77ba5a0-1569-4466-9d1d-dfb91ed955be" name="Default Changelist" comment="appium自动化一部曲">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/runlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testRun/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/testRun/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="e77ba5a0-1569-4466-9d1d-dfb91ed955be" name="Default Changelist" comment="appium自动化一部曲" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564111834768</updated>
       <workItem from="1564111836094" duration="3417000" />
-      <workItem from="1564128893332" duration="7103000" />
+      <workItem from="1564128893332" duration="7282000" />
     </task>
     <task id="LOCAL-00001" summary="appium自动化一部曲">
       <created>1564223709399</created>
@@ -188,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10520000" />
+    <option name="totallyTimeSpent" value="10699000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
