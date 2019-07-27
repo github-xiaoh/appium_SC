@@ -7,8 +7,6 @@ from tools.fileOperation import newFile, openFile
 from tools.sendEmail import mail
 from BeautifulReport import BeautifulReport
 
-
-
 # 用例存放位置
 
 test_case_path="../testCase"

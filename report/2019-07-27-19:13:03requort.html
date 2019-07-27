@@ -7164,25 +7164,44 @@ body.skin-3 {
 
 
     var resultData = {
-    "testPass": 1,
+    "testPass": 0,
     "testResult": [
         {
             "className": "TestLogin",
             "methodName": "test_Login_True",
             "description": null,
-            "spendTime": "49.7 s",
-            "status": "成功",
+            "spendTime": "42.1 s",
+            "status": "错误",
             "log": [
-                "/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/tools/desired_caps.py:17: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.",
-                "  desired_caps_data = yaml.load(f)",
-                ""
+                "/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/tools/desired_caps.py:17: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.\n  desired_caps_data = yaml.load(f)\n",
+                "Traceback (most recent call last):\n",
+                "  File \"/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/tools/common.py\", line 58, in check_iphone\n    iphoneId = self.driver.find_element(*self.iphoneSiginBtn)\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/webdriver.py\", line 276, in find_element\n    'value': value})['value']\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/errorhandler.py\", line 29, in check_response\n    raise wde\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/errorhandler.py\", line 24, in check_response\n    super(MobileErrorHandler, self).check_response(response)\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+                "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py\", line 605, in run\n    testMethod()\n",
+                "  File \"/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/testCase/test_Login.py\", line 18, in test_Login_True\n    login.login_action('18403558945','111111Qq')\n",
+                "  File \"/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/businessView/loginView.py\", line 30, in login_action\n    self.check_iphone()\n",
+                "  File \"/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/tools/common.py\", line 62, in check_iphone\n    self.driver.find_element(*self.myBtn).click()\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/webdriver.py\", line 276, in find_element\n    'value': value})['value']\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/errorhandler.py\", line 29, in check_response\n    raise wde\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/errorhandler.py\", line 24, in check_response\n    super(MobileErrorHandler, self).check_response(response)\n",
+                "  File \"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+                "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\n"
             ]
         },
         {
             "className": "TestLogin",
             "methodName": "test_login_error",
             "description": null,
-            "spendTime": "50.2 s",
+            "spendTime": "57.1 s",
             "status": "失败",
             "log": [
                 "/Users/chenhang/Desktop/pythonFile/python/untitled/appium/appium_SC/tools/desired_caps.py:17: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.\n  desired_caps_data = yaml.load(f)\n",
@@ -7198,9 +7217,9 @@ body.skin-3 {
     ],
     "testName": "smartCinema_TW ",
     "testAll": 2,
-    "testFail": 1,
-    "beginTime": "2019-07-26 13:25:41",
-    "totalTime": "100s",
+    "testFail": 2,
+    "beginTime": "2019-07-27 19:13:03",
+    "totalTime": "99s",
     "testSkip": 0,
     "testError": 0
 };
