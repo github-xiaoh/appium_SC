@@ -3,9 +3,10 @@ import datetime
 import time
 import logging
 import unittest
-from BeautifulReport import BeautifulReport
 from tools.fileOperation import newFile, openFile
 from tools.sendEmail import mail
+from BeautifulReport import BeautifulReport
+
 
 # 用例存放位置
 
