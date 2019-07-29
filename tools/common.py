@@ -3,7 +3,7 @@
 import sys
 import time
 
-sys.path.append("..")
+sys.path.append("../")
 from baseView.baseView import BaseView
 from selenium.common.exceptions import NoSuchElementException
 import logging
