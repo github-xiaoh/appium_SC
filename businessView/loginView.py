@@ -6,7 +6,7 @@ import time
 
 from selenium.common.exceptions import NoSuchElementException
 
-sys.path.append("..")
+sys.path.append("../")
 from tools.common import Common
 from selenium.webdriver.common.by import By
 from tools.desired_caps import appium_desired

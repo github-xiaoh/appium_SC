@@ -4,7 +4,7 @@
 import unittest
 import sys
 
-# sys.path.append("..")
+sys.path.append("../")
 from tools.unit_StartEnd import StartEnd
 from businessView.loginView import LoginView
 import logging

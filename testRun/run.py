@@ -3,6 +3,8 @@ import datetime
 import time
 import logging
 import unittest
+import sys
+sys.path.append("..")
 from tools.fileOperation import newFile, openFile
 from tools.sendEmail import mail
 from BeautifulReport import BeautifulReport

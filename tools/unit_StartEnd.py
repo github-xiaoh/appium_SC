@@ -3,7 +3,7 @@ import time
 import unittest
 import logging
 import sys
-sys.path.append("..")
+sys.path.append("../")
 from tools.desired_caps import appium_desired
 
 
